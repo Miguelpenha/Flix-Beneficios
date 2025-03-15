@@ -5,6 +5,7 @@ export const Container = styled.section`
     display: flex;
     padding: 3em 0;
     flex-direction: row;
+    border-radius: 20px;
     background-color: ${props => props.theme.backgroundSecondary};
 
     @media screen and (max-width: 900px) {
