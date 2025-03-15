@@ -3,12 +3,13 @@ import styled from 'styled-components'
 export const Container = styled.li`
     gap: 1em;
     width: 90%;
+    opacity: 0;
     padding: 1em;
     display: flex;
     max-width: 22em;
     border-radius: 10px;
+    transform: translateY(100px);
     background-color: ${props => props.theme.color};
-    border: 1px solid ${props => props.theme.primary};
 `
 
 export const Icon = styled.svg`
