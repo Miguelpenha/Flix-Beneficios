@@ -5,6 +5,7 @@ import Initial from '../components/Initial'
 import Showcases from '../components/Showcases'
 import Features from '../components/Features'
 import About from '../components/About'
+import App from '../components/App'
 import Footer from '../components/Footer'
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
             <Showcases/>
             <Features/>
             <About/>
+            <App/>
         </Container>
         <Footer/>
     </>
