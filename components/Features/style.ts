@@ -16,6 +16,7 @@ export const Title = styled.h3`
 export const List = styled.ul`
     gap: 2em;
     display: flex;
+    max-width: 90em;
     flex-wrap: wrap;
     margin-top: 5em;
     flex-direction: row;

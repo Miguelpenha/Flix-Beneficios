@@ -34,7 +34,7 @@ export const Container = styled.a<IContainer>`
     }
 
     @media screen and (max-width: 900px) {
-        width: 90%;
+        width: 95%;
         align-self: center;
     }
 `
@@ -50,4 +50,8 @@ export const Icon = styled.svg`
 export const Text = styled.span`
     font-size: 1em;
     font-weight: 500;
+
+    @media screen and (max-width: 900px) {
+        font-size: 0.8em;
+    }
 `

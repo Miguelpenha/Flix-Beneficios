@@ -7,6 +7,12 @@ export const Container = styled.section`
     flex-direction: row;
     padding-bottom: 3em;
     background-color: ${props => props.theme.backgroundSecondary};
+
+    @media screen and (max-width: 900px) {
+        padding: 3em 0;
+        align-items: center;
+        flex-direction: column;
+    }
 `
 
 export const ContainerNumber = styled.div`
