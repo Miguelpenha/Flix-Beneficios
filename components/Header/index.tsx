@@ -1,4 +1,4 @@
-import logoFlixSRC from '../../public/img/Logo Flix Benefícios.png'
+import logoFlixSRC from '../../public/img/asd.png'
 
 import { Container, Logo } from './style'
 
