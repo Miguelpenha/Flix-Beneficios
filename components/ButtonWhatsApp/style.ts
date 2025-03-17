@@ -49,7 +49,7 @@ export const Icon = styled.svg`
 
 export const Text = styled.span`
     font-size: 1em;
-    font-weight: 500;
+    font-weight: bold;
 
     @media screen and (max-width: 900px) {
         font-size: 0.8em;

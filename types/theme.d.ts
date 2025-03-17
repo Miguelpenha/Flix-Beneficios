@@ -4,6 +4,7 @@ interface ITheme {
     secondary: string
     background: string
     colorSecondary: string
+    backgroundTertiary: string
     backgroundSecondary: string
 }
 

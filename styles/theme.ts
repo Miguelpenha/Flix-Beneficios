@@ -6,7 +6,8 @@ const theme: ITheme = {
     secondary: '#F2B705',
     background: '#F7F9F9',
     colorSecondary: '#495057',
-    backgroundSecondary: '#FFFAF1'
+    backgroundSecondary: '#FFFAF1',
+    backgroundTertiary: '#E3E4EA'
 }
 
 export default theme

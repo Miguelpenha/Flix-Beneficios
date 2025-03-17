@@ -1,5 +1,5 @@
 import { Container, Texts, Title, Subtitle, Image } from './style'
-import cardSRC from '../../public/img/Card.png'
+import initialSRC from '../../public/img/Initial.png'
 import ButtonWhatsApp from '../ButtonWhatsApp'
 
 function Initial() {
@@ -10,7 +10,7 @@ function Initial() {
                 <Subtitle>Oferecemos vantagens e benefícios aos seus funcionários, com a solidez e eficiência.</Subtitle>
                 <ButtonWhatsApp color="secondary">QUERO PEDIR MEU CARTÃO FLIX</ButtonWhatsApp>
             </Texts>
-            <Image priority src={cardSRC} alt="Foto Cartão"/>
+            <Image priority src={initialSRC} alt="Foto Inicio"/>
         </Container>
     )
 }

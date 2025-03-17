@@ -12,7 +12,7 @@ function useAnimation() {
             snap: 'innerText',
             scrollTrigger: {
                 trigger: '#showcases',
-                start: 'bottom bottom'
+                start: '70% bottom'
             }
         })
     }, [])

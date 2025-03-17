@@ -6,6 +6,8 @@ import Showcases from '../components/Showcases'
 import Features from '../components/Features'
 import About from '../components/About'
 import App from '../components/App'
+import Card from '../components/Card'
+import Contact from '../components/Contact'
 import Footer from '../components/Footer'
 
 function Home() {
@@ -18,6 +20,8 @@ function Home() {
             <Features/>
             <About/>
             <App/>
+            <Card/>
+            <Contact/>
         </Container>
         <Footer/>
     </>

@@ -4,9 +4,14 @@ import Image from 'next/image'
 export const Container = styled.section`
     display: flex;
     padding: 3em 0;
-    flex-direction: row;
-    border-radius: 20px;
     background-color: ${props => props.theme.backgroundSecondary};
+`
+
+export const Content = styled.div`
+    display: flex;
+    max-width: 80em;
+    align-self: center;
+    flex-direction: row;
 
     @media screen and (max-width: 900px) {
         flex-direction: column;
@@ -24,6 +29,7 @@ export const Photo = styled(Image)`
         width: 80%;
         margin: auto;
         margin-top: 2em;
+        max-width: 30em;
     }
 `
 
@@ -45,8 +51,8 @@ export const Title = styled.h3`
 `
 
 export const Subtitle = styled.span`
+    font-size: 2em;
     margin-top: 1em;
-    font-size: 1.6em;
     font-weight: bold;
     color: ${props => props.theme.secondary};
 `

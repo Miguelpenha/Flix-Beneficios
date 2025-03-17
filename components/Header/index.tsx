@@ -1,6 +1,5 @@
-import logoFlixSRC from '../../public/img/Logo Flix Benefícios.png'
-
 import { Container, Logo } from './style'
+import logoFlixSRC from '../../public/img/Logo Flix Benefícios.png'
 
 function Header() {
     return (
