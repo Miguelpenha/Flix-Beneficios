@@ -57,6 +57,7 @@ export const ContactIcon = styled.svg`
 
 export const ContactText = styled.span`
     font-size: 1em;
+    word-break: break-all;
     color: ${props => props.theme.color};
 `
 
