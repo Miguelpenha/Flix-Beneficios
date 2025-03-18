@@ -4,7 +4,7 @@ function useSlidesPerView() {
     const [slidesPerView, setSlidesPerView] = useState<number>(2)
 
     function handleResize() {
-        setSlidesPerView(window.innerWidth <= 900 ? 2 : 5)
+        setSlidesPerView(window.innerWidth <= 900 ? 2 : 4)
     }
 
     useEffect(() => {

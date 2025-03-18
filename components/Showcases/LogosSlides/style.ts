@@ -3,11 +3,16 @@ import { Swiper as SwiperRaw } from 'swiper/react'
 import Image from 'next/image'
 
 export const Swiper = styled(SwiperRaw)`
-    width: 80%;
+    width: 70%;
+    max-width: 70em;
 
     .swiper-slide {
         width: auto;
         align-self: center;
+    }
+
+    @media screen and (max-width: 900px) {
+        margin-top: 3em;
     }
 `
 
