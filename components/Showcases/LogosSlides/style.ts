@@ -12,6 +12,7 @@ export const Swiper = styled(SwiperRaw)`
     }
 
     @media screen and (max-width: 900px) {
+        width: 95%;
         margin-top: 3em;
     }
 `
