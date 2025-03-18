@@ -10,6 +10,7 @@ export const Container = styled.section`
 
     @media screen and (max-width: 900px) {
         padding: 2em;
+        padding-top: 6em;
         align-items: center;
         flex-direction: column;
     }
