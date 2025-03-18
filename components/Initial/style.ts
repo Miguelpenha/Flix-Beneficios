@@ -3,14 +3,12 @@ import ImageNext from 'next/image'
 
 export const Container = styled.section`
     display: flex;
-    padding-top: 6em;
     padding-left: 8em;
     flex-direction: row;
     background-color: ${props => props.theme.primary};
 
     @media screen and (max-width: 900px) {
         padding: 2em;
-        padding-top: 6em;
         align-items: center;
         flex-direction: column;
     }
@@ -30,6 +28,10 @@ export const Title = styled.h1`
     margin-top: 2em;
     font-size: 3.2em;
     font-weight: bold;
+
+    @media screen and (max-width: 900px) {
+        margin-top: 0;
+    }
 `
 
 export const Subtitle = styled.h3`

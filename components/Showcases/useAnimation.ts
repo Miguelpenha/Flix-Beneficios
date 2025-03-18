@@ -8,11 +8,11 @@ function useAnimation() {
 
         gsap.to('#showcases>.number .value', {
             duration: 1,
-            innerText: '5000',
+            innerText: '1500',
             snap: 'innerText',
             scrollTrigger: {
-                trigger: '#showcases',
-                start: '70% bottom'
+                start: '60% bottom',
+                trigger: '#showcases'
             }
         })
     }, [])
