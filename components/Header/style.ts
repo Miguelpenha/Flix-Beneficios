@@ -17,7 +17,7 @@ export const Container = styled.header`
 `
 
 export const Logo = styled(Image)`
-    width: 10em;
+    width: 12em;
     height: auto;
     display: flex;
 `

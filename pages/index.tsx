@@ -16,9 +16,9 @@ function Home() {
         <Header/>
         <Container>
             <Initial/>
-            <Showcases/>
             <Features/>
             <About/>
+            <Showcases/>
             <App/>
             <Card/>
             <Contact/>
